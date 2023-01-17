@@ -1,0 +1,26 @@
+body{
+    background-color: #F0F0F0;
+}
+.button{
+    border-radius:50px ;
+    cursor: pointer;
+  
+    /* padding: 4px; */
+    
+    }
+    .hover:hover{
+        
+        background-color: #006600;
+        outline: none;
+        border-color:#006600;
+        
+    }
+    
+    /* .green{
+    } */
+    .fill{
+        color: #FBFBFB;
+        background-color: #333333;
+    }
+
+   

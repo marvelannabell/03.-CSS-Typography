@@ -1,0 +1,25 @@
+/* @font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-VariableFont_wght.ttf")
+} */
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 16px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+td, th {
+    width: 144px;
+    height: 32px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding-left: 5px;
+}
+
+
