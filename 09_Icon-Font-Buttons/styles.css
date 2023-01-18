@@ -1,1 +1,50 @@
-/* TODO: style the html */
+body{
+    font-family: Arial,serif;
+    line-height: 3px;
+    font-size: 18px;
+
+}
+p{
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 27px;
+   padding-right: 27px;
+    border-radius: 5.4px;
+    margin-bottom: 20px;
+}
+a.green{
+    background-color: green;
+}
+a.orange{
+    background-color: orange;
+}
+a:hover{
+    color:#eee
+}
+
+
+/* •	<body>:
+o	Font: Arial
+o	Generic Font: serif
+o	Height of the line: 3
+o	Font size: 18px
+•	<a>:
+o	None text decoration
+o	Text color: #fff
+o	Set the border radius to 5.40px
+o	Top & bottom paddings 12.6px
+o	Left & right paddings 27px
+•	When the mouse course is over (a:hover):
+o	Change the text color to #eee
+•	<i>:
+o	Right padding: 5.40px
+•	The anchor with class="green"> (you can select them like that: .green)
+o	Background color: green
+•	The anchor with class="orange"> (you can select them like that: .orange)
+o	Background color: orange
+•	Use FontAwesome for this task. Import it in your CSS, with the @import rule */
