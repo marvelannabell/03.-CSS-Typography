@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child-selectors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Child selectors</h1>
+    <h2>Direct child</h2>
+    <section class="select1">
+
+        <hr>
+        <h3>Select by "space" - select all li cildren</h3>
+        <ul>
+            <li>Lorem.</li>
+            <li>Lorem1</li>
+            <li>Lorem, ipsum.</li>
+            <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum dolor.</li>
+            </ol>
+        </ul>
+    </section>
+    <section class="select2">
+
+        <hr>
+        <h3 >Select by ">" - select first line = direct children  </h3>
+        <ul>
+            <li>Lorem.</li>
+            <li>Lorem1</li>
+            <li>Lorem, ipsum.</li>
+            <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum dolor.</li>
+            </ol>
+        </ul>
+    </section>
+    <section class="select3">
+ 
+        <hr>
+        <h3 >Adjacent sibling - select p after p (css: p + p)</h3>
+        <div class="container-adjacent">
+           <p>Lorem ipsum dolor sit amet.</p>
+           <p>Ipsum cumque accusantium laudantium ex.</p>
+           <p>Dicta accusamus perspiciatis voluptatum eum.</p>
+           <div>Lorem. </div>
+           <p>Lorem, ipsum dolor.</p>
+           <p>Quo, facilis suscipit.</p>
+        </div>
+     
+    </section>
+    <section class="select4">
+ 
+        <hr>
+        <h3 >General sibling combinator(css: p ~ p)</h3>
+        <div class="container-adjacent">
+           <p>Lorem ipsum dolor sit amet.</p>
+           <p>Ipsum cumque accusantium laudantium ex.</p>
+           <p>Dicta accusamus perspiciatis voluptatum eum.</p>
+           <div>Lorem. </div>
+           <p>Lorem, ipsum dolor.</p>
+           <p>Quo, facilis suscipit.</p>
+        </div>
+     
+    </section>
+</body>
+
+</html>
