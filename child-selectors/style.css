@@ -11,3 +11,15 @@
 .select4 .container-adjacent p ~ p{
     background-color: green;
 }
+.select5 li:nth-child(3){
+    background-color:red ;
+}
+.select6 li:nth-child(even){
+    background-color:red ;
+}
+.select7 li:nth-child(odd){
+    background-color:red ;
+}
+.select8 li:nth-child(3n+1){
+    background-color:red ;
+}
