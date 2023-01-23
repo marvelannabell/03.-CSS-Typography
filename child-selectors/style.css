@@ -1,0 +1,13 @@
+.select1 ul li{
+    background-color: red ;
+}
+
+.select2 ul>li{
+    background-color: red ;  
+}
+.select3 .container-adjacent p + p{
+    background-color: blueviolet;
+}
+.select4 .container-adjacent p ~ p{
+    background-color: green;
+}
